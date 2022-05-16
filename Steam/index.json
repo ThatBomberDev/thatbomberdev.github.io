@@ -1,0 +1,195 @@
+{
+  "jwt": "16",
+  "routes": {
+    "blobserve": "merged-nms-blobserve.nomanssky.com",
+    "queryexact": "merged-nms-discovery.nomanssky.com/query/exact",
+    "querycategory": "merged-nms-discovery.nomanssky.com/query/category",
+    "queryall": "merged-nms-discovery.nomanssky.com/query/all2",
+    "queryvoxel": "merged-nms-discovery.nomanssky.com/query/voxel",
+    "submitdiscovery": "merged-nms-discovery.nomanssky.com/submit",
+    "reportcontent": "merged-nms-contentreport.nomanssky.com/report",
+    "submitmessage": "merged-nms-discovery.nomanssky.com/submit/message",
+    "querymessage": "merged-nms-discovery.nomanssky.com/query/messages",
+    "reportbase": "merged-nms-contentreport.nomanssky.com/report/base",
+    "querybase": "merged-nms-discovery.nomanssky.com/query/bases",
+    "submitbase": "merged-nms-discovery.nomanssky.com/submit/base",
+    "submitbasewithimage": "merged-nms-discovery.nomanssky.com/submit/basewithimage",
+    "querymonument": "merged-nms-discovery.nomanssky.com/query/monuments",
+    "submitmonument": "merged-nms-discovery.nomanssky.com/submit/monument",
+    "basesexist": "merged-nms-discovery.nomanssky.com/query/basesexist",
+    "featuredbases": "merged-nms-discovery.nomanssky.com/query/featuredbases",
+    "submitcontribution": "merged-nms-discovery.nomanssky.com/submit/contribution",
+    "querycontribution": "merged-nms-discovery.nomanssky.com/query/cmtotal",
+    "baseimages": "merged-nms-images.nomanssky.com/baseimages",
+    "featurebaseimages": "featuredbases.nomanssky.com/baseimages",
+    "getseasonmodedata": "merged-nms-blobserve.nomanssky.com/season",
+    "submitsettlement": "merged-nms-discovery.nomanssky.com/submit/settlement",
+    "querysettlements": "merged-nms-discovery.nomanssky.com/query/settlements"
+  },
+  "settings": {
+    "discoveryrefreshrate": "0x258",
+    "messages": true,
+    "authTokenExpiration": 2082758399,
+    "currentCmIndex": 58,
+    "currentCmStartEpoch": 1646218800,
+    "currentCmEndEpoch": 1648033200,
+    "nextCmStartEpoch": 1648033200,
+    "nextCmEndEpoch": 1649847600,
+    "userCmContribution": 0,
+    "maxUserContribution": 0,
+    "contributionLevels": [
+      999999,
+      1999999,
+      2999999
+    ],
+    "currentTotalContribution": 4665,
+    "previousCommunalTiers": [
+      {
+        "index": 46,
+        "tier": 6
+      },
+      {
+        "index": 47,
+        "tier": 1
+      },
+      {
+        "index": 48,
+        "tier": 3
+      },
+      {
+        "index": 49,
+        "tier": 3
+      },
+      {
+        "index": 50,
+        "tier": 3
+      },
+      {
+        "index": 51,
+        "tier": 3
+      },
+      {
+        "index": 52,
+        "tier": 4
+      },
+      {
+        "index": 53,
+        "tier": 3
+      },
+      {
+        "index": 54,
+        "tier": 3
+      },
+      {
+        "index": 55,
+        "tier": 3
+      },
+      {
+        "index": 56,
+        "tier": 1
+      },
+      {
+        "index": 57,
+        "tier": 3
+      }
+    ],
+    "maxUserDailyContribution": 5,
+    "cmRefreshRate": 900,
+    "seasonData": {
+      "currentSeason": 9,
+      "StartDate": 1645700400,
+      "EndDate": 1649116740,
+      "Hash": 3285784400
+    }
+  },
+  "rewards": {
+    "twitch": [
+      "TWITCH_048",
+      "TWITCH_055",
+      "TWITCH_080",
+      "TWITCH_070",
+      "TWITCH_075",
+      "TWITCH_060",
+      "TWITCH_065",
+      "TWITCH_085",
+      "TWITCH_047",
+      "TWITCH_053",
+      "TWITCH_079",
+      "TWITCH_074",
+      "TWITCH_069",
+      "TWITCH_084",
+      "TWITCH_064",
+      "TWITCH_059",
+      "TWITCH_052",
+      "TWITCH_049",
+      "TWITCH_078",
+      "TWITCH_068",
+      "TWITCH_073",
+      "TWITCH_083",
+      "TWITCH_058",
+      "TWITCH_063",
+      "TWITCH_050",
+      "TWITCH_054",
+      "TWITCH_077",
+      "TWITCH_067",
+      "TWITCH_072",
+      "TWITCH_057",
+      "TWITCH_082",
+      "TWITCH_062",
+      "TWITCH_046",
+      "TWITCH_051",
+      "TWITCH_076",
+      "TWITCH_071",
+      "TWITCH_066",
+      "TWITCH_081",
+      "TWITCH_061",
+      "TWITCH_056",
+      "TWITCH_022",
+      "TWITCH_038",
+      "TWITCH_043",
+      "TWITCH_026",
+      "TWITCH_030",
+      "TWITCH_034",
+      "TWITCH_008",
+      "TWITCH_013",
+      "TWITCH_045",
+      "TWITCH_021",
+      "TWITCH_037",
+      "TWITCH_042",
+      "TWITCH_025",
+      "TWITCH_029",
+      "TWITCH_033",
+      "TWITCH_044",
+      "TWITCH_012",
+      "TWITCH_007",
+      "TWITCH_020",
+      "TWITCH_036",
+      "TWITCH_024",
+      "TWITCH_041",
+      "TWITCH_028",
+      "TWITCH_032",
+      "TWITCH_011",
+      "TWITCH_006",
+      "TWITCH_003",
+      "TWITCH_019",
+      "TWITCH_035",
+      "TWITCH_040",
+      "TWITCH_023",
+      "TWITCH_027",
+      "TWITCH_031",
+      "TWITCH_002",
+      "TWITCH_010",
+      "TWITCH_005",
+      "TWITCH_017",
+      "TWITCH_016",
+      "TWITCH_039",
+      "TWITCH_018",
+      "TWITCH_009",
+      "TWITCH_001",
+      "TWITCH_004",
+      "TWITCH_015",
+      "TWITCH_014"
+    ]
+  },
+  "ts": 1646241832
+}
