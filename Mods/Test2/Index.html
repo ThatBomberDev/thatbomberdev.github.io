@@ -1,0 +1,1789 @@
+<!doctype html>
+
+<html lang="en-GB" prefix="og: http://ogp.me/ns#" prefix="og: http://ogp.me/ns#" class="no-js">
+
+	<head>		<meta charset="UTF-8">
+
+		
+
+		<link href="//www.google-analytics.com" rel="dns-prefetch">
+
+		<link rel="apple-touch-icon" sizes="180x180" href="https://nmswp.azureedge.net/app/themes/nomanssky/dist/images/icons/favicon/apple-touch-icon.png">
+
+		<link rel="icon" type="image/png" href="https://nmswp.azureedge.net/app/themes/nomanssky/dist/images/icons/favicon/favicon-32x32.png" sizes="32x32">
+
+		<link rel="icon" type="image/png" href="https://nmswp.azureedge.net/app/themes/nomanssky/dist/images/icons/favicon/favicon-16x16.png" sizes="16x16">
+
+		<link rel="manifest" href="https://nmswp.azureedge.net/app/themes/nomanssky/dist/images/icons/favicon/manifest.json">
+
+		<link rel="mask-icon" href="https://www.nomanssky.com/app/themes/nomanssky/dist/images/icons/favicon/safari-pinned-tab.svg" color="#5bbad5">
+
+		<meta name="apple-mobile-web-app-title" content="No Man's Sky">
+
+		<meta name="application-name" content="No Man's Sky">
+
+		<meta name="theme-color" content="#ffffff">
+
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<meta name="description" content="">
+
+		<script async src="https://www.google-analytics.com/analytics.js"></script>
+
+		<script src="https://nmswp.azureedge.net/app/themes/nomanssky/dist/scripts/autotrack.js"></script>
+
+        <script src="https://nmswp.azureedge.net/app/themes/nomanssky/dist/scripts/main.js"></script>
+
+		<script id="ebOneTagUrlId" src="https://secure-ds.serving-sys.com/SemiCachedScripts/ebOneTag.js"></script>
+
+		<script src="//platform.twitter.com/oct.js" type="text/javascript"></script>
+
+		<script>
+
+			function eraseCookieFromAllPaths(name) {
+
+				var pathBits = location.pathname.split('/'); var pathCurrent = ' path=';
+
+				for (var i = 0; i < pathBits.length; i++) {
+
+					pathCurrent += ((pathCurrent.substr(-1) != '/') ? '/' : '') + pathBits[i];
+
+					document.cookie = name + '=;Domain=nomanssky.com;expires=Thu, 01-Jan-1970 00:00:01 GMT;' + pathCurrent + ';';
+
+					document.cookie = name + '=;Domain=www.nomanssky.com;expires=Thu, 01-Jan-1970 00:00:01 GMT;' + pathCurrent + ';';
+
+				}
+
+			}
+
+			function deleteAllCookies() {
+
+				var cookies = document.cookie.split(";");
+
+				for (var i = 0; i < cookies.length; i++) {
+
+					var cookie = cookies[i];
+
+					var eqPos = cookie.indexOf("=");
+
+					var name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
+
+					var name = name.trim();
+
+					if(name == 'viewed_cookie_policy'){continue;}
+
+					document.cookie = name + '=;Domain=nomanssky.com;expires=Thu, 01 Jan 1970 00:00:00 GMT;';
+
+					document.cookie = name + '=;Domain=www.nomanssky.com;expires=Thu, 01 Jan 1970 00:00:00 GMT;';
+
+				}
+
+			}
+
+			function isAcceptedCookie() {
+
+  				var match = document.cookie.match(new RegExp('(^| )viewed_cookie_policy=([^;]+)'));
+
+  				if (match) return match[2];
+
+			}
+
+			if(isAcceptedCookie() == 'yes') {
+
+				window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+
+				ga('create', 'UA-50514970-6', 'auto');
+
+				ga('require', 'maxScrollTracker');
+
+				ga('send', 'pageview');
+
+				// versaTag
+
+				var versaTag = {};
+
+				versaTag.id = "9273";
+
+				versaTag.sync = 0;
+
+				versaTag.dispType = "js";
+
+				versaTag.ptcl = "HTTPS";
+
+				versaTag.bsUrl = "bs.serving-sys.com/BurstingPipe";
+
+				//VersaTag activity parameters include all conversion parameters including custom parameters and Predefined parameters. Syntax: "ParamName1":"ParamValue1", "ParamName2":"ParamValue2". ParamValue can be empty.
+
+				versaTag.activityParams = {
+
+				//Predefined parameters:
+
+				"Session":""
+
+				//Custom parameters:
+
+				};
+
+				//Static retargeting tags parameters. Syntax: "TagID1":"ParamValue1", "TagID2":"ParamValue2". ParamValue can be empty.
+
+				versaTag.retargetParams = {};
+
+				//Dynamic retargeting tags parameters. Syntax: "TagID1":"ParamValue1", "TagID2":"ParamValue2". ParamValue can be empty.
+
+				versaTag.dynamicRetargetParams = {};
+
+				// Third party tags conditional parameters and mapping rule parameters. Syntax: "CondParam1":"ParamValue1", "CondParam2":"ParamValue2". ParamValue can be empty.
+
+				versaTag.conditionalParams = {};
+
+				!function(f,b,e,v,n,t,s)
+
+				{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+
+				n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+
+				if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+
+				n.queue=[];t=b.createElement(e);t.async=!0;
+
+				t.src=v;s=b.getElementsByTagName(e)[0];
+
+				s.parentNode.insertBefore(t,s)}(window, document,'script',
+
+				'https://connect.facebook.net/en_US/fbevents.js');
+
+				fbq('init', '545734312855827');
+
+				fbq('track', 'PageView');
+
+				(function(e,t,n){if(e.snaptr)return;var a=e.snaptr=function()
+
+				{a.handleRequest?a.handleRequest.apply(a,arguments):a.queue.push(arguments)};
+
+				a.queue=[];var s='script';r=t.createElement(s);r.async=!0;
+
+				r.src=n;var u=t.getElementsByTagName(s)[0];
+
+				u.parentNode.insertBefore(r,u);})(window,document,
+
+				'https://sc-static.net/scevent.min.js');
+
+				snaptr('init', '8d2adee3-547e-4b1c-9a54-b5d91c417cff', {});
+
+				snaptr('track', 'PAGE_VIEW');
+
+				!function(w,d){if(!w.rdt){var p=w.rdt=function(){p.sendEvent?p.sendEvent.apply(p,arguments):p.callQueue.push(arguments)};p.callQueue=[];var t=d.createElement("script");t.src="https://www.redditstatic.com/ads/pixel.js",t.async=!0;var s=d.getElementsByTagName("script")[0];s.parentNode.insertBefore(t,s)}}(window,document);rdt('init','t2_6h1i4stz');rdt('track', 'PageVisit');
+
+				var _qevents = _qevents || [];
+
+				(function() {
+
+				var elem = document.createElement('script');
+
+				elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+
+				elem.async = true;
+
+				elem.type = "text/javascript";
+
+				var scpt = document.getElementsByTagName('script')[0];
+
+				scpt.parentNode.insertBefore(elem, scpt);
+
+				})();
+
+				_qevents.push({qacct:"p-HRzMMkkSGAhHr"});
+
+				(function() {
+
+				var ta = document.createElement('script'); ta.type = 'text/javascript'; ta.async = true;
+
+				ta.src = 'https://analytics.tiktok.com/i18n/pixel/sdk.js?sdkid=BSPVSDNRH2682FELA5PG';
+
+				var s = document.getElementsByTagName('script')[0];
+
+				s.parentNode.insertBefore(ta, s);
+
+				})();
+
+				!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+
+				},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
+
+				a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+
+				// Insert Twitter Pixel ID and Standard Event data below
+
+				twq('init','o4zbp');
+
+				twq('track','PageView');
+
+			} else {
+
+				deleteAllCookies();
+
+			}
+
+			
+
+			function gtagTracker(event, category, action = '', label = '') {
+
+				if(isAcceptedCookie() == 'yes') {
+
+					ga('send', event, category, action, label);
+
+					fbq('track', 'InitiateCheckout', { content_name: category, content_category: label });
+
+				}
+
+			}
+
+			function rdTracker(event) {
+
+				if(isAcceptedCookie() == 'yes') {
+
+					rdt('track', event);
+
+					snaptr('track', 'START_CHECKOUT', {});
+
+					twttr.conversion.trackPid('o4zbq', { tw_sale_amount: 0, tw_order_quantity: 0 });
+
+				}
+
+			}
+
+			function qTracker(event) {
+
+				if(isAcceptedCookie() == 'yes') {
+
+					_qevents.push({qacct:"p-HRzMMkkSGAhHr",labels:"_fp.event.Buy now buttons "+event+"",event:"refresh"});
+
+				}
+
+			}
+
+			var _vwo_code=(function(){
+
+			var account_id=369023,
+
+			settings_tolerance=2000,
+
+			library_tolerance=2500,
+
+			use_existing_jquery=false,
+
+			/* DO NOT EDIT BELOW THIS LINE */
+
+			f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+
+		</script>
+
+		
+
+<!-- This site is optimized with the Yoast SEO plugin v9.7 - https://yoast.com/wordpress/plugins/seo/ -->
+
+<title>Outlaws Update - No Man&#039;s Sky</title>
+
+<link rel="canonical" href="https://www.nomanssky.com/outlaws-update/" />
+
+<meta property="og:locale" content="en_GB" />
+
+<meta property="og:type" content="article" />
+
+<meta property="og:title" content="Outlaws Update - No Man&#039;s Sky" />
+
+<meta property="og:description" content="Outlaws: Introducing Update 3.85 Become an interstellar rebel in Update 3.85, OUTLAWS! Introducing outlaw systems; the ability to recruit your own squadron of pilots; improved space combat; a stunning Solar Sail Starship, and much more! Buy now on More purchase options &raquo; Solar ships Solar Ships are a new high-tech starship class, with a full... View Article" />
+
+<meta property="og:url" content="https://www.nomanssky.com/outlaws-update/" />
+
+<meta property="og:site_name" content="No Man&#039;s Sky" />
+
+<meta property="og:image" content="https://nmswp.azureedge.net/wp-content/uploads/2022/04/nms-outlaws-book-cover.png" />
+
+<meta property="og:image:secure_url" content="https://nmswp.azureedge.net/wp-content/uploads/2022/04/nms-outlaws-book-cover.png" />
+
+<meta name="twitter:card" content="summary" />
+
+<meta name="twitter:description" content="Outlaws: Introducing Update 3.85 Become an interstellar rebel in Update 3.85, OUTLAWS! Introducing outlaw systems; the ability to recruit your own squadron of pilots; improved space combat; a stunning Solar Sail Starship, and much more! Buy now on More purchase options &raquo; Solar ships Solar Ships are a new high-tech starship class, with a full... View Article" />
+
+<meta name="twitter:title" content="Outlaws Update - No Man&#039;s Sky" />
+
+<meta name="twitter:image" content="https://nmswp.azureedge.net/wp-content/uploads/2022/04/nms-outlaws-book-cover.png" />
+
+<!-- / Yoast SEO plugin. -->
+
+<link rel='stylesheet' id='cookie-law-info-css'  href='https://nmswp.azureedge.net/app/plugins/cookie-law-info/public/css/cookie-law-info-public.css?ver=1.8.2' media='all' />
+
+<link rel='stylesheet' id='cookie-law-info-gdpr-css'  href='https://nmswp.azureedge.net/app/plugins/cookie-law-info/public/css/cookie-law-info-gdpr.css?ver=1.8.2' media='all' />
+
+<link rel='stylesheet' id='nomanssky-css'  href='https://nmswp.azureedge.net/app/themes/nomanssky/dist/styles/main.css?ver=1629966954' media='all' />
+
+<link rel='stylesheet' id='newsletter-css'  href='https://nmswp.azureedge.net/app/plugins/newsletter/style.css?ver=5.9.3' media='all' />
+
+<script type='text/javascript'>
+
+/* <![CDATA[ */
+
+var Cli_Data = {"nn_cookie_ids":[],"cookielist":[]};
+
+var log_object = {"ajax_url":"https:\/\/www.nomanssky.com\/wp\/wp-admin\/admin-ajax.php"};
+
+/* ]]> */
+
+</script>
+
+<script type='text/javascript' src='https://nmswp.azureedge.net/app/plugins/cookie-law-info/public/js/cookie-law-info-public.js?ver=1.8.2'></script>
+
+		<script type="text/javascript">
+
+			var cli_flush_cache=1;
+
+		</script>
+
+			</head>
+
+	<body class="page-template page-template-template-blank page-template-template-blank-php page page-id-9783 outlaws-update">
+
+		<noscript><iframe src="https://bs.serving-sys.com/BurstingPipe?cn=ot&onetagid=9273&ns=1&activityValues=$$Session=[Session]$$&retargetingValues=$$$$&dynamicRetargetingValues=$$$$&acp=$$$$&" style="display:none;width:0px;height:0px"></iframe></noscript>
+
+		<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=545734312855827&ev=PageView&noscript=1"/></noscript>
+
+		<!-- Google Tag Manager (noscript) -->
+
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WFC7KTS"
+
+			height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+		<!-- End Google Tag Manager (noscript) -->
+
+		<!-- wrapper -->
+
+		<div class="wrapper">
+
+			<!-- header -->
+
+			<header class="header clear" role="banner">
+
+					<!-- logo -->
+
+					<div class="logo">
+
+						<a href="https://www.nomanssky.com">
+
+							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
+
+							<img src="https://nmswp.azureedge.net/app/themes/nomanssky/dist/images/logo-nms.png" alt="No Man's Sky Logo" class="logo--image">
+
+						</a>
+
+					</div>
+
+					<!-- /logo -->
+
+					<!-- umbrella nav -->
+
+					<button class="umbrella-nav__button js-umbrella-button"></button>
+
+					<div class="umbrella-nav js-umbrella-nav">
+
+						<a class="umbrella-nav__item" href="https://galacticatlas.nomanssky.com/">
+
+							<img src="https://nmswp.azureedge.net/app/themes/nomanssky/dist/images/umbrella-atlas-thumb-100x61.jpg" />
+
+							<div class="umbrella-nav__meta">
+
+								<h4>Galactic Atlas</h4>
+
+								<p>Explore the No Man's Sky galaxy</p>
+
+							</div>            
+
+						</a>
+
+					</div> 
+
+					<!-- /umbrella nav -->
+
+					<!-- nav -->
+
+					<nav class="nav" role="navigation">
+
+						<input name="menuToggle" id="menuToggle" type="checkbox"></input>
+
+						<label for="menuToggle" class="toggler">Menu</label>
+
+						<ul class="menu menu-header"><li id="menu-item-6582" class="cta cta--primary-ghost padding--none menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-6582 menu__item"><a href="/outlaws-update/">Latest Patch Notes</a></li>
+
+<li id="menu-item-1591" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1591 menu__item"><a href="/buy-now/">Buy</a></li>
+
+<li id="menu-item-1661" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1661 menu__item"><a href="https://www.nomanssky.com/release-log/">Release log</a></li>
+
+<li id="menu-item-5760" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5760 menu__item"><a href="https://www.nomanssky.com/news/">News</a></li>
+
+<li id="menu-item-1681" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1681 menu__item"><a href="https://www.nomanssky.com/press/">Press</a></li>
+
+<li id="menu-item-6180" class="is-umbrella-item menu-item menu-item-type-custom menu-item-object-custom menu-item-6180 menu__item"><a href="https://galacticatlas.nomanssky.com/">Galactic Atlas</a></li>
+
+<li id="menu-item-1581" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1581 menu__item"><a href="https://freshmerch.fm/collections/hello-games">Merchandise</a></li>
+
+</ul>					</nav>
+
+					<!-- /nav -->
+
+			</header>
+
+			<!-- /header -->
+
+    <section class="section section--promo" style="background: transparent;">
+
+<div class="section__content"><img class="no-lazy size-full wp-image-4907" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/nms-outlaws-book-cover.png" alt="Book cover styled art showcasing No Man's Sky artwork" /></div>
+
+<picture class="section__bg"><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/nms-outlaws-cover-2560w.jpg" media="(min-width: 1921px)" /><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/nms-outlaws-cover-1920w.jpg" media="(min-width: 1441px)" /><img src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/nms-outlaws-cover-1440w.jpg" />
+
+    </picture>
+
+</section>
+
+<section class="section">
+
+<div class="section__content text--centered">
+
+<div class="box box--red padding--horizontal-none">
+
+<h2 class="text--heading-centered">Outlaws: Introducing Update 3.85</h2>
+
+<div class="icons-header margin--bottom-default" style="background-image: url('https://nmswp.azureedge.net/wp-content/uploads/2022/04/icons-bg-outlaws.png'); background-position: top;">
+
+<p class="text--narrow margin--bottom-none">Become an interstellar rebel in Update 3.85, <strong>OUTLAWS</strong>! Introducing <strong>outlaw systems</strong>; the ability to <strong>recruit your own squadron</strong> of pilots; improved <strong>space combat</strong>; a stunning <strong>Solar Sail Starship</strong>, and much more!</p>
+
+</div>
+
+<div class="padding--base padding--tiny-bottom">
+
+<div class="embed margin--bottom-none shadow--medium">
+
+                    <iframe src="//www.youtube.com/embed/A2UHduOn5ZE?rel=0&amp;controls=1&amp;showinfo=0" width="300" height="150" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
+                </div>
+
+</div>
+
+<div class="box box--buy-now" style="position: static; margin: 0 auto; text-align: center; padding-bottom: 0; transform: none !important; max-width: none;">
+
+<h2 class="text--shadow" style="color: white !important; margin-bottom: 1.5rem !important; font-size: 2.5rem; font-weight: 700 !important;">Buy now on</h2>
+
+<ul class="list--logos margin--bottom-tiny" style="display: flex;flex-wrap: wrap; justify-content: center; max-width: none; margin-left: 0;">
+
+<li style="width: auto; padding: 0 .5rem;"><a class="cta cta--primary display--block padding--small" style="background: #ff8400; border: 0; box-shadow: none; display: flex; height: 100%; box-sizing: border-box; align-items: center;" onclick="javascript:gtagTracker('event', 'buy now', 'outlaws update', 'ps4');rdTracker('Purchase');qTracker('PS4');" href="https://store.playstation.com/?resolve=EP2034-CUSA03952_00-NOMANSSKYHG00001"><img class="display--block" src="https://nmswp.azureedge.net/wp-content/uploads/2018/07/logo-ps4.png" style="max-height: 2rem; max-width: 8rem;" alt="Buy now on PS4" /></a></li>
+
+<li style="width: auto; padding: 0 .5rem;"><a class="cta cta--primary display--block padding--small" style="background: #ff8400; border: 0; box-shadow: none; display: flex; height: 100%; box-sizing: border-box; align-items: center;" onclick="javascript:gtagTracker('event', 'buy now', 'outlaws update', 'ps5');rdTracker('Purchase');qTracker('PS4');" href="https://store.playstation.com/?resolve=EP2034-CUSA03952_00-NOMANSSKYHG00001"><img class="display--block" src="https://nmswp.azureedge.net/wp-content/uploads/2020/11/logo-ps5.png" style="max-height: 2rem; max-width: 8rem;" alt="Buy now on PS5" /></a></li>
+
+<li style="width: auto; padding: 0 .5rem;"><a class="cta cta--primary display--block" style="background: #ff8400; border: 0; box-shadow: none; padding: 13px 1.5rem; display: flex; height: 100%; box-sizing: border-box; align-items: center;" onclick="javascript:gtagTracker('event', 'buy now', 'outlaws update', 'pc');rdTracker('Purchase');qTracker('PC');" href="https://steam.gs/l/3wQhP/"><img class="display--block" src="https://nmswp.azureedge.net/wp-content/uploads/2018/07/logo-steam.png" style="max-height: 2rem; max-width: 8rem;" alt="Buy now on Steam" /></a></li>
+
+<li style="width: auto; padding: 0 .5rem;"><a class="cta cta--primary display--block padding--small" style="background: #ff8400; border: 0; box-shadow: none; padding: 15px 1.5rem 16px; display: flex; height: 100%; box-sizing: border-box; align-items: center;" onclick="javascript:gtagTracker('event', 'buy now', 'outlaws update', 'xbox one');rdTracker('Purchase');qTracker('Xbox');" href="https://www.microsoft.com/p/no-mans-sky/bqvqtl3pch05"><img class="display--block" src="https://nmswp.azureedge.net/wp-content/uploads/2018/07/logo-xbox-one.png" style="max-height: 2rem; max-width: 8rem;" alt="Buy now on Xbox One" /></a></li>
+
+<li style="width: auto; padding: 0 .5rem;"><a class="cta cta--primary display--block padding--small" style="background: #ff8400; border: 0; box-shadow: none; padding: 15px 1.5rem 16px; display: flex; height: 100%; box-sizing: border-box; align-items: center;" onclick="javascript:gtagTracker('event', 'buy now', 'outlaws update', 'xbox series xs');rdTracker('Purchase');qTracker('Xbox');" href="https://www.microsoft.com/p/no-mans-sky/bqvqtl3pch05"><img class="display--block" src="https://nmswp.azureedge.net/wp-content/uploads/2020/11/logo-xbox-series-x-s.png" style="max-height: 2rem; max-width: 8rem;" alt="Buy now on Xbox Series X/S" /></a></li>
+
+<li style="width: auto; padding: 0 .5rem;"><a class="cta cta--primary display--block padding--small" style="background: #ff8400; border: 0; box-shadow: none; padding: 15px 1.5rem 16px; display: flex; height: 100%; box-sizing: border-box; align-items: center;padding: 1rem;" onclick="javascript:gtagTracker('event', 'buy now', 'outlaws update', 'xbox gamepass');rdTracker('Purchase');qTracker('Xbox GamePass');" href="https://www.microsoft.com/p/no-mans-sky/bqvqtl3pch05"><img class="display--block" src="https://nmswp.azureedge.net/wp-content/uploads/2022/02/logo-xbox-game-pass-140w.png" style="max-height: 2rem; max-width: 9rem;" alt="Play now on Xbox Game Pass"/></a></li>
+
+</ul>
+
+<p><a class="text--shadow" href="/buy-now/" style="color: white;" onclick="javascript:gtagTracker('event', 'more purchase options', 'outlaws update')">More purchase options &raquo;</a></p>
+
+</div>
+
+</div>
+
+</div>
+
+<picture class="section__bg"><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/pirate-mission-bg-2560w.jpg" media="(min-width: 1921px)"/><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/pirate-mission-bg-1920w.jpg" media="(min-width: 1441px)"/><img src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/pirate-mission-bg-1440w.jpg"/>
+
+    </picture>
+
+</section>
+
+<section class="section">
+
+<div class="section__content">
+
+<div class="box box--blue-1 text--centered">
+
+<h2 class="text--heading-left">Solar ships</h2>
+
+<p class="margin--bottom-default text--narrow"><strong>Solar Ships</strong> are a new high-tech starship class, with a full and diverse range of <strong>procedurally-generated variations</strong>. These versatile and efficient long-range travellers come with their own <strong>unique technologies</strong>, and can be found all across the universe.</p>
+
+<div class="media margin--bottom-default"><img class="shadow--medium size-full wp-image-5173" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/solar-ships-1-1040w.jpg" alt="" /></div>
+
+<ul class="list list--horizontal margin--bottom-none" style="margin-left: 0 !important; margin-right: 0 !important; padding: 0 !important;">
+
+<li style="width: 33%;">
+
+<div class="media margin--bottom-none"><img class="display--block shadow--medium size-full wp-image-5173" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/solar-ships-3-1040w.jpg" alt="" /></div>
+
+</li>
+
+<li style="width: 33%;">
+
+<div class="media margin--bottom-none"><img class="display--block shadow--medium size-full wp-image-5173" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/solar-ships-2-1040w.jpg" alt="" /></div>
+
+</li>
+
+<li style="width: 33%;">
+
+<div class="media margin--bottom-none"><img class="display--block shadow--medium size-full wp-image-5173" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/solar-ships-4-1040w.jpg" alt="" /></div>
+
+</li>
+
+</ul></div>
+
+</div>
+
+<picture class="section__bg"><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/solar-ships-bg-2560w.jpg" media="(min-width: 1921px)"/><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/solar-ships-bg-1920w.jpg" media="(min-width: 1441px)"/><img src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/solar-ships-bg-1440w.jpg"/>
+
+    </picture>
+
+</section>
+
+<section class="section">
+
+<div class="section__content">
+
+<div class="box box--red-1 text--centered">
+
+<h2 class="text--heading-left">Outlaw stations</h2>
+
+<p class="margin--bottom-default text--narrow">Across the galaxy, star systems have fallen under <strong>outlaw control</strong>. System authority has been surrendered to rebel forces, leaving space unpoliced and ripe for <strong>piracy</strong>.</p>
+
+<p class="margin--bottom-default text--narrow">As well having no Sentinel interceptors, outlaw systems have their own <strong>technology merchants</strong>, their own marketplace for <strong>contraband items</strong>, their own unique <strong>mission agents</strong>, and much more…</p>
+
+<div class="media margin--bottom-default"><img class="shadow--medium size-full wp-image-5173" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/pirate-controlled-systems-5-1040w.jpg" alt="" /></div>
+
+<ul class="list list--horizontal margin--bottom-none" style="margin-left: 0 !important; margin-right: 0 !important; padding: 0 !important;">
+
+<li style="width: 33%;">
+
+<div class="media margin--bottom-none"><img class="display--block shadow--medium size-full wp-image-5173" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/pirate-controlled-systems-2-1040w.jpg" alt="" /></div>
+
+</li>
+
+<li style="width: 33%;">
+
+<div class="media margin--bottom-none"><img class="display--block shadow--medium size-full wp-image-5173" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/pirate-controlled-systems-3-1040w.jpg" alt="" /></div>
+
+</li>
+
+<li style="width: 33%;">
+
+<div class="media margin--bottom-none"><img class="display--block shadow--medium size-full wp-image-5173" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/pirate-controlled-systems-4-1040w.jpg" alt="" /></div>
+
+</li>
+
+</ul></div>
+
+</div>
+
+<picture class="section__bg"><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/pirate-controlled-systems-bg-2560w.jpg" media="(min-width: 1921px)"/><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/pirate-controlled-systems-bg-1920w.jpg" media="(min-width: 1441px)"/><img src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/pirate-controlled-systems-bg-1440w.jpg"/>
+
+    </picture>
+
+</section>
+
+<section class="section">
+
+<div class="section__content">
+
+<div class="box box--blue-1 text--centered">
+
+<h2 class="text--heading-left">Improved space combat</h2>
+
+<p class="margin--bottom-default">The risks and rewards of space combat have been <strong>rebalanced</strong> for challenge, flow and speed.</p>
+
+<div class="media margin--bottom-default" style="padding-bottom: 56.25%;"><iframe loading="lazy" class="display--block shadow--medium" src="https://player.vimeo.com/video/698930711?background=1&#038;autopause=0" width="100%" height="100%" style="position: absolute;inset: 0;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+
+<div class="media margin--bottom-none"><img class="shadow--medium size-full wp-image-5173" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/better-space-combat-2-1040w.jpg" alt="" /></div>
+
+</div>
+
+</div>
+
+<picture class="section__bg"><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/better-space-combat-bg-2560w.jpg" media="(min-width: 1921px)"/><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/better-space-combat-bg-1920w.jpg" media="(min-width: 1441px)"/><img src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/better-space-combat-bg-1440w.jpg"/>
+
+    </picture>
+
+</section>
+
+<section class="section section--featured-bg">
+
+    <picture class="section__bg"><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/nms-outlaws-featured-6-2560w.jpg" media="(min-width: 1921px)" /><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/nms-outlaws-featured-6-1920w.jpg" media="(min-width: 1441px)" /><img src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/nms-outlaws-featured-6-1440w.jpg" />
+
+    </picture>
+
+</section>
+
+<section class="section section--galaxy section--galaxy-huge">
+
+<div class="section__content">
+
+<div class="box box--blue-2 text--centered">
+
+<h2 class="text--heading-left">Dramatic explosions</h2>
+
+<p class="margin--bottom-default"><strong>Destruction effects</strong> for <strong>ships</strong>, <strong>asteroids</strong>, <strong>freighters</strong> and <strong>space cargo</strong> have all received an overhaul, making gunning down vessels <strong>more satisfying</strong> than ever.</p>
+
+<div class="media margin--bottom-default" style="padding-bottom: 56.25%;"><iframe loading="lazy" class="display--block shadow--medium" src="https://player.vimeo.com/video/698670566?background=1&#038;autopause=0" width="100%" height="100%" style="position: absolute;inset: 0;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+
+<div class="media margin--bottom-none" style="padding-bottom: 56.25%;"><iframe loading="lazy" class="display--block shadow--medium" src="https://player.vimeo.com/video/698670489?background=1&#038;autopause=0" width="100%" height="100%" style="position: absolute;inset: 0;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+
+</div>
+
+</div>
+
+<picture class="section__bg"><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/02/sentinel-bg-amd-2560w.jpg" media="(min-width: 1921px)"/><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/02/sentinel-bg-amd-1920w.jpg" media="(min-width: 1441px)"/><img src="https://nmswp.azureedge.net/wp-content/uploads/2022/02/sentinel-bg-amd-1440w.jpg"/>
+
+    </picture>
+
+</section>
+
+<section class="section">
+
+<div class="section__content">
+
+<div class="box box--blue-3 text--centered">
+
+<h2 class="text--heading-left">Passing frigate fleets</h2>
+
+<p class="margin--bottom-default">Gaze up from <strong>planetary surfaces</strong> to see occasional fleets of <strong>frigates</strong> thundering across the skies.</p>
+
+<div class="media margin--bottom-default" style="padding-bottom: 56.25%;"><iframe loading="lazy" class="display--block shadow--medium" src="https://player.vimeo.com/video/698670411?background=1&#038;autopause=0" width="100%" height="100%" style="position: absolute;inset: 0;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+
+<p class="margin--bottom-default">In addition, the <strong>warp</strong> and <strong>engine</strong> effects of all frigates and freighters have been overhauled for additional flair and impact.</p>
+
+<div class="media margin--bottom-default"><img class="shadow--medium size-full wp-image-5173" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/passing-frigate-fleets-1-1040w.jpg" alt="" /></div>
+
+<ul class="list list--horizontal margin--bottom-none" style="margin-left: 0 !important; margin-right: 0 !important; padding: 0 !important;">
+
+<li style="width: 33%;">
+
+<div class="media margin--bottom-none"><img class="display--block shadow--medium size-full wp-image-5173" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/passing-frigate-fleets-2-1040w.jpg" alt="" /></div>
+
+</li>
+
+<li style="width: 33%;">
+
+<div class="media margin--bottom-none"><img class="display--block shadow--medium size-full wp-image-5173" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/passing-frigate-fleets-3-1040w.jpg" alt="" /></div>
+
+</li>
+
+<li style="width: 33%;">
+
+<div class="media margin--bottom-none"><img class="display--block shadow--medium size-full wp-image-5173" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/passing-frigate-fleets-4-1040w.jpg" alt="" /></div>
+
+</li>
+
+</ul></div>
+
+</div>
+
+<picture class="section__bg"><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/passing-frigate-fleets-bg-2560w.jpg" media="(min-width: 1921px)"/><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/passing-frigate-fleets-bg-1920w.jpg" media="(min-width: 1441px)"/><img src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/passing-frigate-fleets-bg-1440w.jpg"/>
+
+    </picture>
+
+</section>
+
+<section class="section">
+
+<div class="section__content">
+
+<div class="box box--red-1 text--centered">
+
+<h2 class="text--heading-left">Smuggling</h2>
+
+<p class="margin--bottom-default text--narrow"><strong>Purchase contraband goods</strong> from outlaw stations, then shuttle them across to regulated systems to <strong>sell for a large profit</strong>.</p>
+
+<div class="media margin--bottom-default"><img class="shadow--medium size-full wp-image-5173" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/smuggling-1-1040w.jpg" alt="" /></div>
+
+<p class="margin--bottom-default text--narrow">System authorities may now scan passing ships and <strong>probe their cargo</strong> for illegal goods, with Sentinel interceptors primed to deal with would-be smugglers. Enterprising pilots can install countermeasures in the form of a <strong>Cargo Probe Deflector</strong>.</p>
+
+<div class="media margin--bottom-none"><img class="size-full wp-image-5173" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/smuggling-3-1040w.png" alt="" /></div>
+
+</div>
+
+</div>
+
+<picture class="section__bg"><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/smuggling-bg-2560w.jpg" media="(min-width: 1921px)"/><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/smuggling-bg-1920w.jpg" media="(min-width: 1441px)"/><img src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/smuggling-bg-1440w.jpg"/>
+
+    </picture>
+
+</section>
+
+<section class="section section--featured-bg">
+
+    <picture class="section__bg"><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/nms-outlaws-featured-2-2560w.jpg" media="(min-width: 1921px)" /><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/nms-outlaws-featured-2-1920w.jpg" media="(min-width: 1441px)" /><img src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/nms-outlaws-featured-2-1440w.jpg" />
+
+    </picture>
+
+</section>
+
+<section class="section">
+
+<div class="section__content">
+
+<div class="box box--blue-1 text--centered">
+
+<h2 class="text--heading-left">In-atmosphere combat</h2>
+
+<p class="margin--bottom-default text--narrow">Skim the tops of mountain ranges in <strong>fierce dogfights</strong> against outlaw ships or Sentinel system authorities <strong>within planetary atmospheres</strong>.</p>
+
+<div class="media margin--bottom-none"><img class="shadow--medium size-full wp-image-5173" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/in-atmosphere-ship-combat-1-1040w.jpg" alt="" /></div>
+
+</div>
+
+</div>
+
+<picture class="section__bg"><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/in-atmosphere-ship-combat-bg-2560w.jpg" media="(min-width: 1921px)"/><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/in-atmosphere-ship-combat-bg-1920w.jpg" media="(min-width: 1441px)"/><img src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/in-atmosphere-ship-combat-bg-1440w.jpg"/>
+
+    </picture>
+
+</section>
+
+<section class="section">
+
+<div class="section__content">
+
+<div class="box box--blue-dark text--centered">
+
+<h2 class="text--heading-left">Ship cargo hold</h2>
+
+<p class="text--narrow margin--bottom-default">Starships can now be fitted with a high-capacity <strong>cargo inventory</strong>, enabling players to haul more than ever across the galaxies.</p>
+
+<div class="media margin--bottom-none"><img class="icons--left" style="inset: auto -6rem 3rem auto; max-width: 200px; z-index: 1;transform: rotate(0deg);" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/ship-cargo-hold-2-200w.png" alt=""/><img class="shadow--medium size-full wp-image-5173" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/ship-cargo-hold-1-1040w.jpg" alt="" /></div>
+
+</div>
+
+</div>
+
+<picture class="section__bg"><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/ship-cargo-hold-bg-2560w.jpg" media="(min-width: 1921px)"/><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/ship-cargo-hold-bg-1920w.jpg" media="(min-width: 1441px)"/><img src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/ship-cargo-hold-bg-1440w.jpg"/>
+
+    </picture>
+
+</section>
+
+<section class="section section--galaxy section--galaxy-huge">
+
+<div class="section__content">
+
+<div class="box box--blue-2 text--centered">
+
+<h2 class="text--heading-left">Squadrons</h2>
+
+<p class="margin--bottom-default">Recruit roaming pilots into your own <strong>squadron</strong> to accompany you along your journey. These wingmen will automatically <strong>warp to your location during space combat</strong>, and can be summoned to fly into formation at any time.</p>
+
+<div class="media margin--bottom-none" style="padding-bottom: 56.25%;"><img class="icons--left" style="inset: 1rem auto auto -6rem; max-width: 200px; z-index: 1;transform: rotate(0deg);" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/squadrons-1-250w.png" alt=""/><iframe loading="lazy" class="display--block shadow--medium" src="https://player.vimeo.com/video/698670297?background=1&#038;autopause=0" width="100%" height="100%" style="position: absolute;inset: 0;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+
+</div>
+
+</div>
+
+<picture class="section__bg"><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/02/sentinel-bg-amd-2560w.jpg" media="(min-width: 1921px)"/><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/02/sentinel-bg-amd-1920w.jpg" media="(min-width: 1441px)"/><img src="https://nmswp.azureedge.net/wp-content/uploads/2022/02/sentinel-bg-amd-1440w.jpg"/>
+
+    </picture>
+
+</section>
+
+<section class="section">
+
+<div class="section__content">
+
+<div class="box box--blue-5 text--centered">
+
+<h2 class="text--heading-left">Manage and upgrade your wingmen</h2>
+
+<p class="margin--bottom-default">Inspect the <strong>skills</strong>, <strong>traits</strong>, and <strong>battle statistics</strong> of your squadron recruits from the <strong>Manage Fleet</strong> terminal on the bridge of your capital ship. <strong>Expand your fleet capacity</strong> by unlocking additional pilot slots, or <strong>train your existing pilots</strong> to upgrade their efficiency in combat.</p>
+
+<div class="media margin--bottom-none" style="padding-bottom: 56.25%;"><iframe loading="lazy" class="display--block shadow--medium" src="https://player.vimeo.com/video/698669967?background=1&#038;autopause=0" width="100%" height="100%" style="position: absolute;inset: 0;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+
+</div>
+
+</div>
+
+<picture class="section__bg"><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/manage-wingmen-bg-2560w.jpg" media="(min-width: 1921px)"/><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/manage-wingmen-bg-1920w.jpg" media="(min-width: 1441px)"/><img src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/manage-wingmen-bg-1440w.jpg"/>
+
+    </picture>
+
+</section>
+
+<section class="section section--featured-bg">
+
+    <picture class="section__bg"><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/nms-outlaws-featured-10-2560w.jpg" media="(min-width: 1921px)" /><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/nms-outlaws-featured-10-1920w.jpg" media="(min-width: 1441px)" /><img src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/nms-outlaws-featured-10-1440w.jpg" />
+
+    </picture>
+
+</section>
+
+<section class="section">
+
+<div class="section__content">
+
+<div class="box box--blue-1 text--centered">
+
+<h2 class="text--heading-left">Expanded starship fleets</h2>
+
+<p class="margin--bottom-default text--narrow">Players can now own up to <strong>nine</strong> starships, giving ship hunters the opportunity to collect a <strong>more diverse fleet</strong> of ship classes, colours and designs. Additionally, players may now <strong>switch their primary starship</strong> while within their <strong>freighter</strong> hangar.</p>
+
+<div class="media margin--bottom-default"><img class="shadow--medium size-full wp-image-5173" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/expanded-starship-fleets-2-1040w.jpg" alt="" /></div>
+
+<div class="media margin--bottom-none"><img class="size-full wp-image-5173" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/expanded-starship-fleets-4-570w.png" alt="" /></div>
+
+</div>
+
+</div>
+
+<picture class="section__bg"><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/expanded-starship-fleets-bg-2560w.jpg" media="(min-width: 1921px)"/><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/expanded-starship-fleets-bg-1920w.jpg" media="(min-width: 1441px)"/><img src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/expanded-starship-fleets-bg-1440w.jpg"/>
+
+    </picture>
+
+</section>
+
+<section class="section">
+
+<div class="section__content">
+
+<div class="box box--blue-2 text--centered">
+
+<h2 class="text--heading-left">Cloth</h2>
+
+<p class="margin--bottom-default">No Man’s Sky now features <strong>cloth physics</strong> simulation, including realistically <strong>draping fabrics</strong> such as <strong>hoods</strong> and <strong>capes</strong>! Visit an Appearance Modifier to try out the new <strong>fully-customisable cape</strong> designs.</p>
+
+<div class="media margin--bottom-default" style="padding-bottom: 56.25%;"><iframe loading="lazy" class="display--block shadow--medium" src="https://player.vimeo.com/video/698199582?background=1&#038;autopause=0" width="100%" height="100%" style="position: absolute;inset: 0;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+
+<ul class="list list--horizontal margin--bottom-none" style="margin-left: 0 !important; margin-right: 0 !important; padding: 0 !important;">
+
+<li style="width: 49.5%;">
+
+<div class="media margin--bottom-none"><img class="display--block shadow--medium size-full wp-image-5173" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/cloth-1-1040w.jpg" alt="" /></div>
+
+</li>
+
+<li style="width: 49.5%;">
+
+<div class="media margin--bottom-none"><img class="display--block shadow--medium size-full wp-image-5173" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/cloth-2-1040w.jpg" alt="" /></div>
+
+</li>
+
+</ul></div>
+
+</div>
+
+<picture class="section__bg"><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/cloth-bg-2560w.jpg" media="(min-width: 1921px)"/><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/cloth-bg-1920w.jpg" media="(min-width: 1441px)"/><img src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/cloth-bg-1440w.jpg"/>
+
+    </picture>
+
+</section>
+
+<section class="section section--galaxy section--galaxy-huge">
+
+<div class="section__content">
+
+<div class="box box--blue-5 text--centered">
+
+<h2 class="text--heading-left">Space combat autopilot</h2>
+
+<p class="margin--bottom-default">The new <strong>Starship Combat Auto-Follow</strong> option enables automatic <strong>target locking</strong> capabilities for space combat. This mode locks onto and <strong>automatically tracks enemy ships</strong>, while still allowing precision adjustments from player input.</p>
+
+<div class="media margin--bottom-default" style="padding-bottom: 56.25%;"><iframe loading="lazy" class="display--block shadow--medium" src="https://player.vimeo.com/video/698669797?background=1&#038;autopause=0" width="100%" height="100%" style="position: absolute;inset: 0;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+
+<p class="margin--bottom-default">This mode is enabled in the options menu as a toggle or on hold, allowing players to focus on weapon switching and firing <strong>without the need to steer</strong>, either as a preference, or an <strong>accessibility option</strong>.</p>
+
+</div>
+
+</div>
+
+<picture class="section__bg"><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/02/sentinel-bg-amd-2560w.jpg" media="(min-width: 1921px)"/><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/02/sentinel-bg-amd-1920w.jpg" media="(min-width: 1441px)"/><img src="https://nmswp.azureedge.net/wp-content/uploads/2022/02/sentinel-bg-amd-1440w.jpg"/>
+
+    </picture>
+
+</section>
+
+<section class="section section--featured-bg">
+
+    <picture class="section__bg"><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/nms-outlaws-featured-4-2560w.jpg" media="(min-width: 1921px)" /><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/nms-outlaws-featured-4-1920w.jpg" media="(min-width: 1441px)" /><img src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/nms-outlaws-featured-4-1440w.jpg" />
+
+    </picture>
+
+</section>
+
+<section class="section section--galaxy section--galaxy-huge">
+
+<div class="section__content">
+
+<div class="box box--blue-2 text--centered">
+
+<h2 class="text--heading-left">The blighted expedition</h2>
+
+<p class="margin--bottom-default"><strong>Expedition Six: Blighted</strong> will be commencing soon!</p>
+
+<p class="margin--bottom-default">A distant galaxy has been terrorised by pirates known as <strong>The Blight</strong> &#8211; and the time has come for their secret to be revealed! Journey across the stars in search of a <strong>mysterious treasure</strong> in this brand new <strong>narrative-driven expedition</strong>.</p>
+
+<div class="media margin--bottom-default"><img class="icons--left" style="inset: 0 auto auto -5rem; max-width: 190px; z-index: 1;transform: rotate(0deg);" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/the-blighted-expedition-2-250w.png" alt=""/><img class="icons--left" style="inset: auto -8rem 3rem auto; max-width: 230px; z-index: 1;transform: rotate(0deg);" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/the-blighted-expedition-3-250w.png" alt=""/><img class="shadow--medium size-full wp-image-5173" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/the-blighted-expedition-7-1040w.jpg" alt="" /></div>
+
+<p class="margin--bottom-default">Exclusive rewards for this expedition include the battle-worn <strong>Outlaw Cape</strong>, a friendly <strong>wayward cube</strong> for your base, a generous assortment of <strong>flags</strong> and <strong>outlaw-themed posters</strong>, a <strong>unique starship trail</strong>, and more!</p>
+
+<div class="media margin--bottom-default"><img class="size-full wp-image-5173" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/the-blighted-expedition-4-970w.png" alt="" /></div>
+
+<div class="media margin--bottom-none"><img class="shadow--medium size-full wp-image-5173" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/the-blighted-expedition-5-1040w.jpg" alt="" /></div>
+
+</div>
+
+</div>
+
+<picture class="section__bg"><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/02/sentinel-bg-amd-2560w.jpg" media="(min-width: 1921px)"/><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/02/sentinel-bg-amd-1920w.jpg" media="(min-width: 1441px)"/><img src="https://nmswp.azureedge.net/wp-content/uploads/2022/02/sentinel-bg-amd-1440w.jpg"/>
+
+    </picture>
+
+</section>
+
+<section class="section">
+
+<div class="section__content" style="overflow: hidden;">
+
+<div class="box box--red-1 text--centered">
+
+<h2 class="text--heading-left">Under a rebel star</h2>
+
+<p class="margin--bottom-default">Explore the outlaw systems and their motives with a series of <strong>new missions</strong> and earn rewards such as new <strong>titles</strong> or the exclusive <strong>Shroud of Freedom</strong> hood customisation.</p>
+
+<div class="media margin--bottom-none"><img class="icons--left" style="inset: auto auto -6rem -4rem; max-width: 190px; z-index: 1;transform: rotate(0deg);" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/pirate-mission-2-250w.png" alt=""/><img class="icons--left" style="inset: auto -4rem -8rem auto; max-width: 230px; z-index: 1;transform: rotate(-30deg);" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/pirate-mission-3-250w.png" alt=""/><img class="shadow--medium size-full wp-image-5173" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/pirate-mission-1-1040w.jpg" alt="" /></div>
+
+</div>
+
+</div>
+
+<picture class="section__bg"><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/pirate-mission-bg-2560w.jpg" media="(min-width: 1921px)"/><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/pirate-mission-bg-1920w.jpg" media="(min-width: 1441px)"/><img src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/pirate-mission-bg-1440w.jpg"/>
+
+    </picture>
+
+</section>
+
+<section class="section section--galaxy section--galaxy-huge">
+
+<div class="section__content">
+
+<div class="box box--blue-1 text--centered">
+
+<h2 class="text--heading-left">Twitch campaign</h2>
+
+<p class="margin--bottom-default text--narrow">This weekend, from <strong>Thursday 14th April</strong> to <strong>Monday 18th April</strong>, a generous selection of <strong>rewards</strong> is available for players <strong>watching No Man’s Sky on Twitch</strong>. Tune into streamers with Drops Enabled, then claim the rewards in the game. See full details and get started on the <a href="https://twitch.nomanssky.com/">Twitch Drops page</a>!
+
+</p>
+
+<div class="media margin--bottom-default"><img class="size-full wp-image-5173" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/twitch-campaign-7-1020w.png" alt="" /></div>
+
+<div class="media margin--bottom-none"><img class="size-full wp-image-5173" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/twitch-campaign-1-500w.png" alt="" /></div>
+
+</div>
+
+</div>
+
+<picture class="section__bg"><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/02/sentinel-bg-hardframe-mech-2560w.jpg" media="(min-width: 1921px)"/><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/02/sentinel-bg-hardframe-mech-1920w.jpg" media="(min-width: 1441px)"/><img src="https://nmswp.azureedge.net/wp-content/uploads/2022/02/sentinel-bg-hardframe-mech-1440w.jpg"/>
+
+    </picture>
+
+</section>
+
+<section class="section section--featured-bg">
+
+    <picture class="section__bg"><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/nms-outlaws-featured-9-2560w.jpg" media="(min-width: 1921px)" /><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/nms-outlaws-featured-9-1920w.jpg" media="(min-width: 1441px)" /><img src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/nms-outlaws-featured-9-1440w.jpg" />
+
+    </picture>
+
+</section>
+
+<section class="section">
+
+<div class="section__content">
+
+<div class="box box--red text--centered">
+
+<h2 class="text--heading-left">Starship energy shields</h2>
+
+<p class="margin--bottom-default text--narrow">Pirate, trader and sentinel starships now come equipped with <strong>energy shields</strong>, varying in <strong>strength</strong> and <strong>recharge speed</strong>. Take down hostile vessels quickly while their shields are disabled!</p>
+
+<div class="media margin--bottom-none"><img class="icons--left" style="inset: 2rem -4rem auto auto; max-width: 190px; z-index: 1;transform: rotate(0deg);" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/starship-energy-shields-2-200w.png" alt=""/><img class="shadow--medium size-full wp-image-5173" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/starship-energy-shields-1-1040w.jpg" alt="" /></div>
+
+</div>
+
+</div>
+
+<picture class="section__bg"><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/starship-energy-shields-bg-2560w.jpg" media="(min-width: 1921px)"/><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/starship-energy-shields-bg-1920w.jpg" media="(min-width: 1441px)"/><img src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/starship-energy-shields-bg-1440w.jpg"/>
+
+    </picture>
+
+</section>
+
+<section class="section">
+
+<div class="section__content">
+
+<div class="box box--red-1 text--centered">
+
+<h2 class="text--heading-left">Interstellar piracy</h2>
+
+<p class="margin--bottom-default text--narrow">The profit available to those who would <strong>prey on trader ships</strong> or passing <strong>freighters</strong> has been increased, though Sentinel interceptors will now respond to attacks on planetary trade routes…</p>
+
+<p class="margin--bottom-default text--narrow">After engaging in acts of space piracy, you can now <strong>restore your reputation</strong> by presenting a <strong>Forged Passport</strong> to the Station Core within any regulated space station.</p>
+
+<div class="media margin--bottom-none"><img class="icons--left" style="inset: auto -3rem -3rem auto; max-width: 190px; z-index: 1;transform: rotate(0deg);" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/become-a-pirate-2-250w.png" alt=""/><img class="shadow--medium size-full wp-image-5173" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/become-a-pirate-1-1040w.jpg" alt="" /></div>
+
+</div>
+
+</div>
+
+<picture class="section__bg"><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/become-a-pirate-bg-2560w.jpg" media="(min-width: 1921px)"/><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/become-a-pirate-bg-1920w.jpg" media="(min-width: 1441px)"/><img src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/become-a-pirate-bg-1440w.jpg"/>
+
+    </picture>
+
+</section>
+
+<section class="section">
+
+<div class="section__content">
+
+<div class="box box--blue-1 text--centered">
+
+<h2 class="text--heading-left">Starship weapon variety</h2>
+
+<p class="margin--bottom-default">All starship weapons have been <strong>rebalanced</strong> to promote tactical decisions during dogfights. Weapons now come with varying levels of damage against <strong>shields or hulls</strong>, the Cyclotron Ballista will now <strong>disable the engines</strong> of hostile starships, and the Phase Beam can <strong>leech</strong> shield energy from its target directly to your own shield systems.</p>
+
+<div class="media margin--bottom-default"><img class="shadow--medium size-full wp-image-5173" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/starship-weapon-variety-1-1040w.jpg" alt="" /></div>
+
+<div class="media margin--bottom-none" style="padding-bottom: 56.25%;"><img class="icons--left" style="inset: 4rem auto auto -5rem; max-width: 190px; z-index: 1;transform: rotate(0deg);" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/starship-weapon-variety-2-250w.png" alt=""/><iframe loading="lazy" class="display--block shadow--medium" src="https://player.vimeo.com/video/698669669?background=1&#038;autopause=0" width="100%" height="100%" style="position: absolute;inset: 0;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+
+</div>
+
+</div>
+
+<picture class="section__bg"><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/starship-weapon-variety-bg-2560w.jpg" media="(min-width: 1921px)"/><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/starship-weapon-variety-bg-1920w.jpg" media="(min-width: 1441px)"/><img src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/starship-weapon-variety-bg-1440w.jpg"/>
+
+    </picture>
+
+</section>
+
+<section class="section section--featured-bg">
+
+    <picture class="section__bg"><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/nms-outlaws-featured-5-2560w.jpg" media="(min-width: 1921px)" /><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/nms-outlaws-featured-5-1920w.jpg" media="(min-width: 1441px)" /><img src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/nms-outlaws-featured-5-1440w.jpg" />
+
+    </picture>
+
+</section>
+
+<section class="section">
+
+<div class="section__content">
+
+<div class="box box--red-1 text--centered">
+
+<h2 class="text--heading-left">Unique pirate missions</h2>
+
+<p class="margin--bottom-default text--narrow">Outlaw systems have their own bespoke <strong>Bounty Master</strong> offering a unique range of <strong>procedurally generated missions</strong>, all with <strong>highly profitable rewards</strong> on offer for willing pirates.</p>
+
+<div class="media margin--bottom-none"><img class="icons--left" style="inset: auto -9rem 5rem auto; max-width: 200px; z-index: 1;transform: rotate(0deg);" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/better-bounties-2-250w.png" alt=""/><img class="shadow--medium size-full wp-image-5173" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/better-bounties-1-1040w.jpg" alt="" /></div>
+
+</div>
+
+</div>
+
+<picture class="section__bg"><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/better-bounties-bg-2560w.jpg" media="(min-width: 1921px)"/><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/better-bounties-bg-1920w.jpg" media="(min-width: 1441px)"/><img src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/better-bounties-bg-1440w.jpg"/>
+
+    </picture>
+
+</section>
+
+<section class="section section--galaxy section--galaxy-huge">
+
+<div class="section__content">
+
+<div class="box box--blue-1 text--centered">
+
+<h2 class="text--heading-left">Dazzling combat effects</h2>
+
+<p class="margin--bottom-default text--narrow">Space combat has had a visual overhaul, with new and improved effects for both player and NPC ships alike. Improvements include <strong>muzzle flashes</strong>, <strong>lighting</strong>, <strong>impact effects</strong>, <strong>projectiles</strong> and much more…</p>
+
+<div class="media margin--bottom-default" style="padding-bottom: 56.25%;"><img class="icons--left" style="inset: 4rem auto auto -5rem; max-width: 190px; z-index: 1;transform: rotate(0deg);" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/dazzling-combat-effects-1-250w.png" alt=""/><iframe loading="lazy" class="display--block shadow--medium" src="https://player.vimeo.com/video/698669548?background=1&#038;autopause=0" width="100%" height="100%" style="position: absolute;inset: 0;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+
+<div class="media margin--bottom-default" style="padding-bottom: 56.25%;"><img class="icons--left" style="inset: auto -4rem 9rem auto; max-width: 190px; z-index: 1;transform: rotate(0deg);" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/dazzling-combat-effects-2-250w.png" alt=""/><iframe loading="lazy" class="display--block shadow--medium" src="https://player.vimeo.com/video/698669464?background=1&#038;autopause=0" width="100%" height="100%" style="position: absolute;inset: 0;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+
+<div class="media margin--bottom-none" style="padding-bottom: 56.25%;"><img class="icons--left" style="inset: 4rem auto auto -5rem; max-width: 190px; z-index: 1;transform: rotate(0deg);" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/dazzling-combat-effects-3-250w.png" alt=""/><iframe loading="lazy" class="display--block shadow--medium" src="https://player.vimeo.com/video/698669330?background=1&#038;autopause=0" width="100%" height="100%" style="position: absolute;inset: 0;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+
+</div>
+
+</div>
+
+<picture class="section__bg"><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/02/sentinel-bg-hardframe-mech-2560w.jpg" media="(min-width: 1921px)"/><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/02/sentinel-bg-hardframe-mech-1920w.jpg" media="(min-width: 1441px)"/><img src="https://nmswp.azureedge.net/wp-content/uploads/2022/02/sentinel-bg-hardframe-mech-1440w.jpg"/>
+
+    </picture>
+
+</section>
+
+<section class="section">
+
+<div class="section__content">
+
+<div class="box box--blue-5 text--centered">
+
+<h2 class="text--heading-left">Planetary pirate raids</h2>
+
+<p class="margin--bottom-default text--narrow">Pirates will now intrude into planet atmospheres to attack <strong>buildings</strong> and <strong>settlements</strong>, strafing in from the sky and <strong>raining fire</strong> down upon the structure and surrounds. Strap into your ship and fend off the raiders to earn new <strong>rewards</strong>!</p>
+
+<div class="media margin--bottom-default" style="padding-bottom: 56.25%;"><iframe loading="lazy" class="display--block shadow--medium" src="https://player.vimeo.com/video/698961422?background=1&#038;autopause=0" width="100%" height="100%" style="position: absolute;inset: 0;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+
+<div class="media margin--bottom-none"><img class="shadow--medium size-full wp-image-5173" src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/planetary-pirate-raids-2-1040w.jpg" alt="" /></div>
+
+</div>
+
+</div>
+
+<picture class="section__bg"><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/planetary-pirate-raids-bg-2560w.jpg" media="(min-width: 1921px)"/><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/planetary-pirate-raids-bg-1920w.jpg" media="(min-width: 1441px)"/><img src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/planetary-pirate-raids-bg-1440w.jpg"/>
+
+    </picture>
+
+</section>
+
+<section class="section section--featured-bg">
+
+    <picture class="section__bg"><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/nms-outlaws-featured-8-2560w.jpg" media="(min-width: 1921px)" /><source srcset="https://nmswp.azureedge.net/wp-content/uploads/2022/04/nms-outlaws-featured-8-1920w.jpg" media="(min-width: 1441px)" /><img src="https://nmswp.azureedge.net/wp-content/uploads/2022/04/nms-outlaws-featured-8-1440w.jpg" />
+
+    </picture>
+
+</section>
+
+<section class="section section--galaxy section--galaxy-huge">
+
+<div class="section__content">
+
+<div class="box box--blue text--left">
+
+<div class="box box--buy-now" style="position: static; margin: 0 auto; text-align: center; transform: none !important; max-width: none;">
+
+<h2 class="text--shadow" style="color: white !important; margin-bottom: 1.5rem !important; font-size: 2.5rem; font-weight: 700 !important;">Buy now on</h2>
+
+<ul class="list--logos margin--bottom-tiny" style="display: flex;flex-wrap: wrap; justify-content: center; max-width: none; margin-left: 0;">
+
+<li style="width: auto; padding: 0 .5rem;"><a class="cta cta--primary display--block padding--small" style="background: #ff8400; border: 0; box-shadow: none; display: flex; height: 100%; box-sizing: border-box; align-items: center;" onclick="javascript:gtagTracker('event', 'buy now', 'outlaws patch notes', 'ps4');rdTracker('Purchase');qTracker('PS4');" href="https://store.playstation.com/?resolve=EP2034-CUSA03952_00-NOMANSSKYHG00001"><img class="display--block" src="https://nmswp.azureedge.net/wp-content/uploads/2018/07/logo-ps4.png" style="max-height: 2rem; max-width: 8rem;" alt="Buy now on PS4" /></a></li>
+
+<li style="width: auto; padding: 0 .5rem;"><a class="cta cta--primary display--block padding--small" style="background: #ff8400; border: 0; box-shadow: none; display: flex; height: 100%; box-sizing: border-box; align-items: center;" onclick="javascript:gtagTracker('event', 'buy now', 'outlaws patch notes', 'ps5');rdTracker('Purchase');qTracker('PS4');" href="https://store.playstation.com/?resolve=EP2034-CUSA03952_00-NOMANSSKYHG00001"><img class="display--block" src="https://nmswp.azureedge.net/wp-content/uploads/2020/11/logo-ps5.png" style="max-height: 2rem; max-width: 8rem;" alt="Buy now on PS5" /></a></li>
+
+<li style="width: auto; padding: 0 .5rem;"><a class="cta cta--primary display--block" style="background: #ff8400; border: 0; box-shadow: none; padding: 13px 1.5rem; display: flex; height: 100%; box-sizing: border-box; align-items: center;" onclick="javascript:gtagTracker('event', 'buy now', 'outlaws patch notes', 'pc');rdTracker('Purchase');qTracker('PC');" href="https://steam.gs/l/3wQhP/"><img class="display--block" src="https://nmswp.azureedge.net/wp-content/uploads/2018/07/logo-steam.png" style="max-height: 2rem; max-width: 8rem;" alt="Buy now on Steam" /></a></li>
+
+<li style="width: auto; padding: 0 .5rem;"><a class="cta cta--primary display--block padding--small" style="background: #ff8400; border: 0; box-shadow: none; padding: 15px 1.5rem 16px; display: flex; height: 100%; box-sizing: border-box; align-items: center;" onclick="javascript:gtagTracker('event', 'buy now', 'outlaws patch notes', 'xbox one');rdTracker('Purchase');qTracker('Xbox');" href="https://www.microsoft.com/p/no-mans-sky/bqvqtl3pch05"><img class="display--block" src="https://nmswp.azureedge.net/wp-content/uploads/2018/07/logo-xbox-one.png" style="max-height: 2rem; max-width: 8rem;" alt="Buy now on Xbox One" /></a></li>
+
+<li style="width: auto; padding: 0 .5rem;"><a class="cta cta--primary display--block padding--small" style="background: #ff8400; border: 0; box-shadow: none; padding: 15px 1.5rem 16px; display: flex; height: 100%; box-sizing: border-box; align-items: center;" onclick="javascript:gtagTracker('event', 'buy now', 'outlaws patch notes', 'xbox series xs');rdTracker('Purchase');qTracker('Xbox');" href="https://www.microsoft.com/p/no-mans-sky/bqvqtl3pch05"><img class="display--block" src="https://nmswp.azureedge.net/wp-content/uploads/2020/11/logo-xbox-series-x-s.png" style="max-height: 2rem; max-width: 8rem;" alt="Buy now on Xbox Series X/S" /></a></li>
+
+<li style="width: auto; padding: 0 .5rem;"><a class="cta cta--primary display--block padding--small" style="background: #ff8400; border: 0; box-shadow: none; padding: 15px 1.5rem 16px; display: flex; height: 100%; box-sizing: border-box; align-items: center;padding: 1rem;" onclick="javascript:gtagTracker('event', 'buy now', 'outlaws patch notes', 'xbox gamepass');rdTracker('Purchase');qTracker('Xbox GamePass');" href="https://www.microsoft.com/p/no-mans-sky/bqvqtl3pch05"><img class="display--block" src="https://nmswp.azureedge.net/wp-content/uploads/2022/02/logo-xbox-game-pass-140w.png" style="max-height: 2rem; max-width: 9rem;" alt="Play now on Xbox Game Pass"/></a></li>
+
+</ul>
+
+<p><a class="text--shadow" href="/buy-now/" style="color: white;" onclick="javascript:gtagTracker('event', 'more purchase options', 'outlaws patch notes')">More purchase options &raquo;</a></p>
+
+</div>
+
+<h2 class="text--heading-centered">3.85 Patch notes</h2>
+
+<h3>STARSHIPS</h3>
+
+<ul class="margin--bottom-default">
+
+<li>A new class of starship has been added, the Solar Sail ship.</li>
+
+<li>Solar starships come in a wide range of procedurally generated variations. They can be found all across the galaxy, but are more common in outlaw systems.</li>
+
+<li>The Solar-class starship comes with unique technologies for a fast and efficient Pulse Engine.</li>
+
+</ul><ul class="margin--bottom-default">
+
+<li>All ships now come with a high-capacity cargo inventory. The starting size of the cargo inventory varies according to ship type and class.</li>
+
+<li>The ship cargo inventory can be upgraded at the starship salvage station.</li>
+
+</ul><ul class="margin--bottom-default">
+
+<li>The maximum number of saved ships has been increased from 6 to 9.</li>
+
+<li>Players may now change their primary starship from the quick menu while in the freighter hangar.</li>
+
+<li>The companion management quick menu option has been moved into the ‘Utilities’ section of the menu while flying a starship.</li>
+
+<li>Summoning other ships, including the freighter, now has its own dedicated sub-section of the quick menu.</li>
+
+</ul><ul class="margin--bottom-default">
+
+<li>While on a planet, players may occasionally see groups of frigates enter the atmosphere and pass by on their own missions across the universe.</li>
+
+</ul><ul class="margin--bottom-default">
+
+<li>An audiovisual cockpit alarm has been added to the ship, to alert pilots to dangerous situations.</li>
+
+</ul>
+
+<h3>OUTLAW SYSTEMS</h3>
+
+<ul class="margin--bottom-default">
+
+<li>A number of star systems across the galaxy have been taken over by pirates. These systems can be identified on the galaxy map with a Conflict or Economy scanner.</li>
+
+<li>Outlaw systems have a unique space station, with their own assortment of NPCs.</li>
+
+</ul>
+
+<ul class="margin--bottom-default">
+
+<li>Visit a Bounty Master aboard an outlaw station to undertake a range of procedurally generated piracy missions and earn unique rewards.</li>
+
+<li>Purchase illegal goods from the black market traders aboard outlaw stations. Illegal goods can be sold for a large markup in regulated space.</li>
+
+<li>The maximum stack size for all trading goods, illegal or otherwise, has been increased.</li>
+
+<li>In regulated systems, space station authorities will periodically scan incoming ships for illegal goods. Sentinel interceptors may be deployed to deal with non-compliant pilots.</li>
+
+<li>A new technology is available, the Cargo Probe Deflector, to attempt to fend off unwanted cargo scans.</li>
+
+</ul>
+
+<ul class="margin--bottom-default">
+
+<li>Earn Forged Passports while working for pirate factions.</li>
+
+<li>These counterfeit starship registration documents can be used at Station Cores in regulated space to increase or reset reputation levels with the system authorities.</li>
+
+<li>Outlaw stations cannot be warped to directly from regulation space stations, and vice versa.</li>
+
+</ul>
+
+<ul class="margin--bottom-default">
+
+<li>Outlaw stations have their own technology merchant, specialising in suspicious aftermarket upgrades.</li>
+
+</ul>
+
+<ul class="margin--bottom-default">
+
+<li>The rewards for destroying starships &#8211; freighters, Sentinels, pirates or traders &#8211; have been diversified and improved.</li>
+
+<li>The rewards for saving a freighter from pirate attack have been improved.</li>
+
+</ul>
+
+<ul class="margin--bottom-default">
+
+<li>A new series of narrative missions have been added for outlaw systems. Complete these missions to earn unique customisation and title options.</li>
+
+</ul>
+
+<h3>CLOTH SIMULATION</h3>
+
+<ul class="margin--bottom-default">
+
+<li>Support has been added for cloth simulation.</li>
+
+<li>Fully customisable cape and hood options have been added to the Appearance Modifier. Some options are available by default, while others must be earned via missions or expeditions.</li>
+
+</ul>
+
+<h3>EXPEDITION: THE BLIGHTED</h3>
+
+<ul class="margin--bottom-default">
+
+<li>Expedition Six, The Blighted, will begin soon.</li>
+
+<li>The Blighted expedition will take players on a treasure hunt across a distant galaxy as they trace the routes of these mysterious pirates.</li>
+
+<li>The Blighted expedition offers the chance to earn an exclusive starship trail; pirate-themed base decorations; your own personal wayward cube/Geoff; a unique cape customisation, and much more besides.</li>
+
+</ul>
+
+<h3>SPACE COMBAT</h3>
+
+<ul class="margin--bottom-default">
+
+<li>Sentinel, pirate and trader ships now have energy shields that must be depleted before the ship itself can be damaged.</li>
+
+<li>Different grades of ship come with different strength shields, and shields that recharge at different rates.</li>
+
+<li>Player starship weapons deal different damage levels against shielded or unshielded targets.</li>
+
+</ul>
+
+<ul class="margin--bottom-default">
+
+<li>The starship combat flight model has been improved for in-atmosphere combat.</li>
+
+<li>Pirates can now attack while the player is flying within a planet’s atmosphere.</li>
+
+<li>Sentinel interceptors will now respond to crimes committed while flying in a planet’s atmosphere.</li>
+
+<li>Pirate ships will occasionally make attacking runs on planetary structures. Players who drive off or eliminate these raids will be rewarded.</li>
+
+</ul>
+
+<ul class="margin--bottom-default">
+
+<li>Space combat has been rebalanced to allow for more challenge for high-end players while remaining accessible to those in starter or non-combat ships.</li>
+
+<li>Players now have the option to enable a combat autopilot for the starship. This setting can be found within the Controls section of the options menu and can be used as a hold (to apply additional alignment assistance towards your target on request) or as a toggle (to constantly apply auto-alignment towards your current target).</li>
+
+</ul>
+
+<ul class="margin--bottom-default">
+
+<li>The heat capacity of the Phase Beam has been increased.</li>
+
+<li>The Phase Beam can now leech shield energy from hostile ships and transfer it to the player’s shield.</li>
+
+</ul>
+
+<ul class="margin--bottom-default">
+
+<li>The Photon Cannon now cools down faster after overheating.</li>
+
+<li>All starship weapons now decay heat much faster if the burst is stopped before the weapon overheats.</li>
+
+</ul>
+
+<ul class="margin--bottom-default">
+
+<li>Fixed an issue that caused the name and visuals of hostile ships on the starship target screen to be incorrect.</li>
+
+<li>Fixed an issue that caused the shield bar on the starship target screen to be incorrect.</li>
+
+<li>Fixed an issue that caused the heat bar on the starship weapons screen to be incorrect.</li>
+
+<li>Fixed an issue that caused the cooldown bar for the Infra-Knife Accelerator to be invisible.</li>
+
+</ul>
+
+<ul class="margin--bottom-default">
+
+<li>The Positron Ejector has had its base firing speed slightly reduced.</li>
+
+<li>The Positron Ejector has had its heat capacity reduced.</li>
+
+<li>The Positron Ejector now deals slightly ineffective damage to starship shields.</li>
+
+</ul>
+
+<ul class="margin--bottom-default">
+
+<li>The Infra-Knife Accelerator has had its base firing speed slightly reduced.</li>
+
+<li>The Infra-Knife Accelerator has had its range and base damage increased.</li>
+
+<li>The Infra-Knife Accelerator now deals additional damage to unshielded targets.</li>
+
+<li>The Infra-Knife Accelerator has had its heat capacity reduced, but now cools down significantly faster.</li>
+
+</ul>
+
+<ul class="margin--bottom-default">
+
+<li>The Cyclotron Ballista has had its base fire rated reduced.</li>
+
+<li>The Cyclotron Ballista has had its dispersion reduced and its heat capacity increased.</li>
+
+<li>The Cyclotron Ballista now deals extremely high damage to starship shields, but low damage to starship hulls.</li>
+
+<li>The Cyclotron Ballista now disables hostile starship engines on hit, causing them to drift slowly.</li>
+
+</ul>
+
+<ul class="margin--bottom-default">
+
+<li>Starship rockets now do additional damage to unshielded starship hulls, but significantly reduced damage versus energy shields.</li>
+
+</ul>
+
+<ul class="margin--bottom-default">
+
+<li>The starship HUD now more clearly reports weapon heat levels.</li>
+
+<li>The off-screen target indicator has been moved to a central position around the starship reticle.</li>
+
+<li>The tethered mouse flight model has been tweaked to make ship control more precise and responsive.</li>
+
+<li>Damage potential readouts now include an additional readout for damage versus energy shields, if shield and hull damage levels are different.</li>
+
+<li>Fixed an issue that caused the speed readout on the starship screen (but not the actual maximum speed of the starship) to be artificially increased by manoeuvrability upgrades.</li>
+
+</ul>
+
+<h3>SQUADRONS</h3>
+
+<ul class="margin--bottom-default">
+
+<li>Players with a freighter may now recruit NPC ships to their own personal squadron.</li>
+
+<li>Your squadron is managed from the Manage Fleet terminal on the bridge of your capital ship.</li>
+
+<li>Players may unlock up to four slots for their squadron.</li>
+
+<li>Your squadron is automatically summoned during space combat, and may be summoned or dismissed at any other time from the Quick Menu.</li>
+
+<li>Your squadron will assist in space combat, taking your lead in attacking hostile targets.<br />
+
+Squadron pilots and their ships can be upgraded using nanites.</li>
+
+</ul>
+
+<h3>VISUAL EFFECTS</h3>
+
+<ul class="margin--bottom-default">
+
+<li>Significantly improved the visual effects for the Photon Cannon, Cyclotron Ballista and Phase Beam.</li>
+
+<li>Improved the visual effects for the Infra-Knife Accelerator and Positron Ejector.</li>
+
+<li>Improved the impact effects for NPC ship laser impacts.</li>
+
+<li>Improved the visual effects for large ship engines.</li>
+
+<li>Improved the visual effects for NPC ship and freighter warp-ins.</li>
+
+<li>Fixed an issue with underwater jetpack trails.</li>
+
+<li>Significantly improved starship and asteroid explosion effects.</li>
+
+<li>Improved the visual impact of player starship muzzle flashes.</li>
+
+<li>Improved the visual and audio impact of the starship cockpit alarm.</li>
+
+<li>Improved the visual impact of starship cockpit hit warnings.</li>
+
+<li>Fixed an issue that caused damage effects to intrude upon the cockpit view when piloting in first person mode.</li>
+
+<li>Improved the projectile and muzzle flash effects for NPC starships.</li>
+
+</ul>
+
+<h3>OPTIMISATIONS &#038; BUG FIXES</h3>
+
+<ul class="margin--bottom-default">
+
+<li>Introduced several very significant memory optimisations, improving stability and performance especially on base consoles.</li>
+
+<li>Introduced a significant optimisation to texture memory usage.</li>
+
+<li>Introduced an optimisation to creature and Sentinel navigation.</li>
+
+<li>Introduced a significant optimisation for bases and settlements.</li>
+
+</ul>
+
+<ul class="margin--bottom-default">
+
+<li>Fixed a crash related to input settings.</li>
+
+<li>Fixed several threading crashes in the UI.</li>
+
+<li>Fixed a crash related to technology item popups.</li>
+
+<li>Fixed a crash related to base building.</li>
+
+<li>Fixed a crash that could occur when using a mineral extractor.</li>
+
+<li>Fixed a rare crash that could occur during warp.</li>
+
+<li>Fixed a rare crash in the Appearance Modifier UI.</li>
+
+</ul>
+
+<ul class="margin--bottom-default">
+
+<li>Fixed an issue that caused many underwater creatures to spawn without their correct procedural settings, dramatically reducing water lifeform variety.</li>
+
+<li>Fixed an issue that could prevent particular rare planetary creatures from ever spawning.</li>
+
+<li>Fixed an issue that could cause the Livestock Unit to fail to harvest products from specific exotic creatures.</li>
+
+<li>Fixed an issue that caused the [ The Sentry ] to appear angry when shot by the player.</li>
+
+<li>Fixed an issue that caused [ The Sentry ] to report the player’s position to hostile Sentinel drones.</li>
+
+<li>Fixed an issue that could cause the Sentinel Quad companion to prevent other Sentinels from spawning.</li>
+
+<li>Fixed an issue that could cause Sentinels to stop spawning during combat, leaving no progression through the wanted levels.</li>
+
+<li>Fixed an issue where a generic ‘Evade Sentinels’ hint would be displayed during missions that encouraged confrontation with Sentinels.</li>
+
+</ul>
+
+<ul class="margin--bottom-default">
+
+<li>Fixed an issue that could cause bases to lose their base computer, and restored the base computer to all affected bases.</li>
+
+<li>Fixed an issue that could cause players to get stuck underneath or on top of buildings and other structures.</li>
+
+<li>Fixed an issue that could cause multiplayer bases to display in the teleporter UI when multiplayer was disabled.</li>
+
+<li>Fixed a multiplayer exploit that could allow bases to be synced from blocked players in ambient sessions.</li>
+
+<li>Fixed a rare issue that could cause players to teleport outside the bounds of a Space Station.</li>
+
+<li>Fixed a rare issue that could prevent interaction with various NPCs and objects in multiplayer.</li>
+
+<li>Fixed an issue where summoning the Sentinel Quad companion aboard the Space Anomaly could cause desyncs with other players.</li>
+
+<li>Fixed an issue that could cause mission destinations to be desynced in multiplayer.</li>
+
+</ul>
+
+<ul class="margin--bottom-default">
+
+<li>Fixed an issue that caused the starship cockpit pitch indicator to show an incorrect angle.</li>
+
+<li>Fixed an issue that caused the starship cockpit pitch indicator to render incorrectly at various HUD scales.</li>
+
+<li>Fixed an issue that could cause the Inventory page to auto-open onto an inventory that could not currently be accessed.</li>
+
+<li>Fixed an issue that caused the Exocraft technology tree to be clipped at the sides.</li>
+
+<li>Fixed a visual issue with the LODs at Sentinel Pillars.</li>
+
+<li>Fixed a number of UI overlap issues with the base building menu.</li>
+
+<li>Fixed a misleading ‘Attempt to Download’ message displaying on the Community Expedition UI when that was not the correct error.</li>
+
+<li>Fixed a number of issues with the UI and popups when attempting to warp to a new galaxy.</li>
+
+<li>Fixed an issue that could cause a long delay when transitioning to/from some freighter interactions, such as colour customisation.</li>
+
+<li>Fixed an issue that could cause a long delay in a dialogue sequence if the player received a new item in the middle of the sequence.</li>
+
+<li>Fixed an issue that could cause player hands to disappear when getting into the ship in VR.</li>
+
+<li>Fixed a visual issue with the Emergency Light base building objects.</li>
+
+<li>Fixed a visual glitch with door animations in several base building wall pieces.</li>
+
+</ul>
+
+<ul class="margin--bottom-default">
+
+<li>Fixed an issue that could cause consumable reward items to all generate the same rewards if redeemed in a short time window.</li>
+
+<li>Fixed a number of issues with NPC ships when flying close to the player, for example when using the starship communicator.</li>
+
+<li>Fixed an issue that could prevent corrupted Sentinels from spawning at scrap heaps.</li>
+
+<li>Fixed an issue that could cause mission destinations to go missing or jump to new locations after save/load.</li>
+
+<li>Purchasable frigates will no longer attempt to call the player on the starship communicator during space combat.</li>
+
+<li>Fixed a mission issue that could spawn too many Sentinel Flares into a player’s inventory.</li>
+
+<li>Fixed an issue that caused the starship to take ground impact damage when crashing into another starship.</li>
+
+</ul></div>
+
+</div>
+
+</section>
+
+			<!-- footer -->
+
+			<footer class="footer" role="contentinfo">
+
+				<!-- nav -->
+
+				<nav class="nav" role="navigation">
+
+					<ul class="menu menu-footer padding--horizontal-none"><li id="menu-item-1671" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1671 menu__item"><a href="https://www.nomanssky.com/contact/">Contact</a></li>
+
+<li id="menu-item-1601" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1601 menu__item"><a href="https://www.nomanssky.com/about/">About</a></li>
+
+<li id="menu-item-1611" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1611 menu__item"><a href="https://www.nomanssky.com/news/">News</a></li>
+
+<li id="menu-item-8489" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8489 menu__item"><a href="https://twitch.nomanssky.com/">Twitch Drops</a></li>
+
+<li id="menu-item-7572" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7572 menu__item"><a href="https://hellogames.zendesk.com/">Help Centre</a></li>
+
+<li id="menu-item-5722" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5722 menu__item"><a href="https://www.nomanssky.com/privacy-policy/">Privacy Policy</a></li>
+
+<li id="menu-item-6474" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6474 menu__item"><a href="https://www.nomanssky.com/end-user-licence-agreement/">End user licence agreement</a></li>
+
+</ul>				</nav>
+
+				<!-- /nav -->
+
+				<ul class="list--horizontal social-list">
+
+					<li><a href="https://twitter.com/nomanssky" title="No Man's Sky on Twitter" target="_blank" class="icon icon--twitter">Twitter</a></li>
+
+					<li><a href="https://en-gb.facebook.com/NoMansSky/" title="No Man's Sky on Facebook" target="_blank" class="icon icon--facebook">Twitter</a></li>
+
+					<li><a href="http://www.hellogames.org/" title="Hello Games" target="_blank" class="icon icon--more">Twitter</a></li>
+
+				</ul>
+
+			</footer>
+
+			<!-- /footer -->
+
+		</div>
+
+		<!-- /wrapper -->
+
+		<div id="cookie-law-info-bar"><span>We'd like to use cookies to help make this site better. If you're happy with this, please accept. Read more in our <a href="/privacy-policy/">privacy policy</a>.<br />
+
+<span class="c-buttons" style="margin-top: 20px"><a  data-cli_action="accept" id="cookie_action_close_header"  class="medium cli-plugin-button cli-plugin-main-button cookie_action_close_header cli_action_button" style="display:inline-block; ">Accept</a>  <a  id="cookie_action_close_header_reject"  class="medium cli-plugin-button cli-plugin-main-button cookie_action_close_header_reject cli_action_button"  data-cli_action="reject">Reject</a></span></span></div><div id="cookie-law-info-again" style="display:none;"><span id="cookie_hdr_showagain">Privacy & Cookies Policy</span></div><div class="cli-modal" id="cliSettingsPopup" tabindex="-1" role="dialog" aria-labelledby="cliSettingsPopup" aria-hidden="true">
+
+  <div class="cli-modal-dialog" role="document">
+
+    <div class="cli-modal-content cli-bar-popup">
+
+      <button type="button" class="cli-modal-close" id="cliModalClose">
+
+        <svg class="" viewBox="0 0 24 24"><path d="M19 6.41l-1.41-1.41-5.59 5.59-5.59-5.59-1.41 1.41 5.59 5.59-5.59 5.59 1.41 1.41 5.59-5.59 5.59 5.59 1.41-1.41-5.59-5.59z"></path><path d="M0 0h24v24h-24z" fill="none"></path></svg>
+
+      </button>
+
+      <div class="cli-modal-body">
+
+        <div class="cli-container-fluid cli-tab-container">
+
+    <div class="cli-row">
+
+        <div class="cli-col-12 cli-align-items-stretch cli-px-0">
+
+            <div class="cli-privacy-overview">
+
+                                                   
+
+                <div class="cli-privacy-content">
+
+                    <div class="cli-privacy-content-text"></div>
+
+                </div>
+
+                <a class="cli-privacy-readmore" data-readmore-text="Show more" data-readless-text="Show less"></a>            </div>
+
+        </div>  
+
+        <div class="cli-col-12 cli-align-items-stretch cli-px-0 cli-tab-section-container">
+
+            <div class="cli-tab-section cli-privacy-tab">
+
+                <div class="cli-tab-header">
+
+                    <a class="cli-nav-link cli-settings-mobile" >
+
+                                            </a>
+
+                </div>
+
+                <div class="cli-tab-content">
+
+                    <div class="cli-tab-pane cli-fade">
+
+                        <p></p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+              
+
+                            <div class="cli-tab-section">
+
+                    <div class="cli-tab-header">
+
+                        <a class="cli-nav-link cli-settings-mobile" data-target="necessary" data-toggle="cli-toggle-tab" >
+
+                            Necessary 
+
+                        </a>
+
+                    
+
+                    <span class="cli-necessary-caption">Always Enabled</span>                     </div>
+
+                    <div class="cli-tab-content">
+
+                        <div class="cli-tab-pane cli-fade" data-id="necessary">
+
+                            <p></p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+              
+
+                       
+
+        </div>
+
+    </div> 
+
+</div> 
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<div class="cli-modal-backdrop cli-fade cli-settings-overlay"></div>
+
+<div class="cli-modal-backdrop cli-fade cli-popupbar-overlay"></div>
+
+<script type="text/javascript">
+
+  /* <![CDATA[ */
+
+  cli_cookiebar_settings='{"animate_speed_hide":"500","animate_speed_show":"500","background":"#042833","border":"#444","border_on":false,"button_1_button_colour":"#095971","button_1_button_hover":"#07475a","button_1_link_colour":"#fff","button_1_as_button":true,"button_1_new_win":false,"button_2_button_colour":"#e0e0e0","button_2_button_hover":"#b3b3b3","button_2_link_colour":"#e0e0e0","button_2_as_button":false,"button_2_hidebar":false,"button_3_button_colour":"#095971","button_3_button_hover":"#07475a","button_3_link_colour":"#fff","button_3_as_button":true,"button_3_new_win":false,"button_4_button_colour":"#000","button_4_button_hover":"#000000","button_4_link_colour":"#fff","button_4_as_button":true,"font_family":"inherit","header_fix":false,"notify_animate_hide":true,"notify_animate_show":false,"notify_div_id":"#cookie-law-info-bar","notify_position_horizontal":"right","notify_position_vertical":"bottom","scroll_close":false,"scroll_close_reload":false,"accept_close_reload":true,"reject_close_reload":false,"showagain_tab":false,"showagain_background":"#fff","showagain_border":"#000","showagain_div_id":"#cookie-law-info-again","showagain_x_position":"100px","text":"#ffffff","show_once_yn":false,"show_once":"10000","logging_on":false,"as_popup":false,"popup_overlay":true,"bar_heading_text":"","cookie_bar_as":"popup","popup_showagain_position":"bottom-right","widget_position":"left"}';
+
+  /* ]]> */
+
+</script><script type='text/javascript'>
+
+/* <![CDATA[ */
+
+var newsletter = {"messages":{"email_error":"The email is not correct","name_error":"The name is not correct","surname_error":"The last name is not correct","profile_error":"","privacy_error":"You must accept the privacy statement"},"profile_max":"20"};
+
+/* ]]> */
+
+</script>
+
+<script type='text/javascript' src='https://nmswp.azureedge.net/app/plugins/newsletter/subscription/validate.js?ver=5.9.3'></script>
+
+<script type='text/javascript' src='https://nmswp.azureedge.net/app/plugins/bj-lazy-load/js/bj-lazy-load.min.js?ver=2'></script>
+
+	</body>
+
+</html>
+
+<!--
+
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+
+
+Object Caching 42/87 objects using redis
+
+Page Caching using redis 
+
+Content Delivery Network via nmswp.azureedge.net
+
+Database Caching 9/16 queries in 0.062 seconds using redis
+
+
+
+Served from: www.nomanssky.com @ 2022-07-10 21:47:18 by W3 Total Cache
+
+-->
